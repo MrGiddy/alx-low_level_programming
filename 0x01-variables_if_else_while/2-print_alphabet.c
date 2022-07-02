@@ -10,7 +10,7 @@ int main(void)
 {
 	char ch_counter = 'a';
 
-	while (ch_counter < 'z')
+	while (ch_counter <= 'z')
 	{
 		putchar(ch_counter);
 		ch_counter++;
