@@ -3,6 +3,8 @@
  * main - Entry point
  *
  * Description: Prints alphabet in lowercase, then uppercase
+ *
+ * Return: 0 (Success)
  */
 int main(void)
 {
@@ -14,7 +16,7 @@ int main(void)
 		putchar(lwr_char);
 		lwr_char++;
 	}
-	for (upr_char;upr_char <= 'Z';upr_char++)
+	for (; upr_char <= 'Z'; upr_char++)
 	{
 		putchar(upr_char);
 	}
