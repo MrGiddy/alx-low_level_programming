@@ -1,14 +1,16 @@
 #include <stdio.h>
 #include <string.h>
-#include <unistd.h>
 /**
- * main - Display string output
+ * main - Entry point
  *
- * Return: 1
- * 
+ * Description: Print string to stderr
+ *
+ * Return: 0 (Success)
  */
 int main(void)
 {
-	int s = strlen("and that piece of art is useful - Dora Korpar, 2015-10-19\n");
-	write(2, "and that piece of art is useful - Dora Korpar, 2015-10-19\n, s);
+	char str[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-09\n";
+
+	fwrite(str, 1, strlen(str), stderr);
 	return (1);
+}
