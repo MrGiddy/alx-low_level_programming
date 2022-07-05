@@ -2,7 +2,8 @@
 /**
  * main -Entry point
  *
- * Description: 
+ * Description: Prints all possible combinations of two digits
+ * without repetition
  *
  * Return: 0 (success)
  */
