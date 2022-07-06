@@ -47,3 +47,7 @@
 * Write a function that prints every minute of the day of Jack Bauer, starting from 00:00 to 23:59.
 	- Prototype: void jack_bauer(void);
 	- You can listen to [this](https://www.youtube.com/watch?v=btAfXqgMkPs) soundtrack while coding :)
+
+### 10. a + b
+* Write a function that adds two integers and returns the result.
+	- Prototype: int add(int, int);
