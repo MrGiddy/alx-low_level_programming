@@ -1,7 +1,8 @@
 #include "main.h"
 /**
  * add - add two integers
- * @int: A signed integer
+ * @a: A signed integer
+ * @b: A signed integer
  *
  * Return: the sum of two integers
  */
