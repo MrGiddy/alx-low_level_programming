@@ -1,4 +1,4 @@
-# More functions, more nested loops0x04. C - More functions, more nested loops
+# More functions, more nested loops0x04.
 
 ### 0. isupper
 * Write a function that checks for uppercase character.
