@@ -18,6 +18,7 @@ void print_rev(char *s)
 		;
 
 	/* print the reversed string */
+	i -= 1;
 	while (i >= 0)
 	{
 		_putchar(s[i]);
