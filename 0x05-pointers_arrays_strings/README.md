@@ -20,6 +20,10 @@
 * Write a function that prints a string, in reverse, followed by a new line.
 	- Prototype: void print_rev(char *s);
 
+### 5. A good engineer thinks in reverse and asks himself about the stylistic consequences of the components and systems he proposes
+* Write a function that reverses a string.
+	- Prototype: void rev_string(char *s);
+
 ### 6. Half the lies they tell about me aren't true
 * Write a function that prints every other character of a string, starting with the first character, followed by a new line.
 	- Prototype: void puts2(char *str);
@@ -53,3 +57,10 @@
 	- You are not allowed to declare new variables of “type” array
 	- You are not allowed to hard-code special values
 	- We will use the -fsanitize=signed-integer-overflow gcc flag to compile your code
+
+### 101. Don't hate the hacker, hate the code
+* Create a program that generates random valid passwords for the program 101-crackme.
+You are allowed to use the standard library
+	- You don’t have to pass the betty-style tests (you still need to pass the betty-doc tests)
+man srand, rand, time
+	- gdb and objdump can help
