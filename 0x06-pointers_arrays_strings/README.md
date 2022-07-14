@@ -27,3 +27,7 @@
 * Write a function that reverses the contents of an array of integers.
 	- Prototype: void reverse_array(int *a, int n);
 	- Where n is the number of elements of the array
+
+### 5. Always look up
+* Write a function that changes all letters of a string to uppercase.
+	- Prototype: char *string_toupper(char *);
