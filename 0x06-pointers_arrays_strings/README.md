@@ -19,7 +19,11 @@
 	- Prototype: char *_strncpy(char *dest, char *src, int n);
 	- Your function should work exactly like strncpy
 
-## 3. strcmp
+### 3. strcmp
 * Write a function that compares two strings
 	- Prototype: int _strcmp(char *s1, char *s2);
 	- Your function should work exactly like strcmp
+### 4. Reverse array contents
+* Write a function that reverses the contents of an array of integers.
+	- Prototype: void reverse_array(int *a, int n);
+	- Where n is the number of elements of the array
