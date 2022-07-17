@@ -31,3 +31,16 @@
 ### 5. Always look up
 * Write a function that changes all letters of a string to uppercase.
 	- Prototype: char *string_toupper(char *);
+
+### 6. Expect the best. Prepare for the worst. Capitalize on what comes
+* Write a function that capitalizes all words of a string.
+	- Prototype: char *cap_string(char *);
+	- Separators of words: space, tabulation, new line, ,, ;, ., !, ?, ", (, ), {, and }
+
+### 8. rot13
+* Write a function that encodes a string using rot13.
+	- Prototype: char *rot13(char *);
+	- You can only use if statement once in your code
+	- You can only use two loops in your code
+	- You are not allowed to use switch
+	- You are not allowed to use any ternary operation
