@@ -8,24 +8,19 @@
  * Return: 0
  */
 
-int main(int argc, char *argv[])
+int main(__attribute__((unused))int argc, char *argv[])
 {
-	long int i, res = 1;
+	int res;
 
-	if (argc > 1 && !(argc > 3))
+	if (argv[1] && argv[2])
 	{
-		for (i = 1; i < argc; i++)
-		{
-			res *= atoi(argv[i]);
-		}
-
-		printf("%ld\n", res);
+		res = atoi(argv[1]) * atoi(argv[2]);
+		printf("%d\n", res);
 	}
 	else
 	{
 		printf("Error\n");
-		return (1);
 	}
 
-	return (0);
+	return (1);
 }
