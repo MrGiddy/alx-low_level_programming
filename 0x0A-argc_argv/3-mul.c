@@ -10,16 +10,16 @@
 
 int main(int argc, char *argv[])
 {
-	int i, res = 1;
+	long int i, res = 1;
 
-	if (argc >= 2 && !(argc > 3))
+	if (argc > 1 && !(argc > 3))
 	{
 		for (i = 1; i < argc; i++)
 		{
 			res *= atoi(argv[i]);
 		}
 
-		printf("%d\n", res);
+		printf("%ld\n", res);
 	}
 	else
 	{
