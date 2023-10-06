@@ -21,7 +21,7 @@ int main(void)
 	go = 'a';
 	last = 'z';
 
-	while (go < last)
+	while (go <= last)
 	{
 		putchar(go);
 		go++;
