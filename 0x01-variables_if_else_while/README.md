@@ -14,12 +14,16 @@ This program will assign a random number to the variable n each time it is execu
 
 ### 1-last_digit.c
 This program will assign a random number to the variable n each time it is executed. Complete the source code in order to print the last digit of the number stored in the variable n.
-* You can find the source code [here](https://github.com/alx-tools/0x01.c/blob/master/0-positive_or_negative_c)
-* The variable n will store a diffent value every time you will run this program
 * The output of the program should be:
-   * The string Last digit of, followed by
-	* the string is, followed by:
+    * The string Last digit of, followed by n, followed by
+    * the string is, followed by
 	* if the last digit of n is greater than 5: the string and is greater than 5
 	* if the last digit of n is 0: the string and is 0
 	* if the last digit of n is less than 6 and not 0: the string and is less than 6 and not 0
-	* followed by anew line
+    * followed by a new line
+
+### 2-print_alphabet.c
+Write a program that prints the alphabet in lowercase, followed by a new line
+    * You can only use the putchar function (every other function (printf, puts, etc...) is forbidden)
+    * All your code should be in the main function
+    * You can only use putchar twice in your code
