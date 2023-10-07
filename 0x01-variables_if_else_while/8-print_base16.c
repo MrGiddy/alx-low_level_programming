@@ -13,7 +13,7 @@ int main(void)
 	{
 		putchar(num_parts + 48);
 	}
-	
+
 	for (alpha_parts = 'a'; alpha_parts < 'g'; alpha_parts++)
 	{
 		putchar(alpha_parts);
