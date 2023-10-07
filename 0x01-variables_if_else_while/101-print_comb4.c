@@ -15,7 +15,7 @@ int main(void)
 		{
 			for (z = y; z < 10; z++)
 			{
-				if (x != y && x != z && y!= z)
+				if (x != y && x != z && y != z)
 				{
 					putchar(x + 48);
 					putchar(y + 48);
