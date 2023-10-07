@@ -21,7 +21,7 @@ This program will assign a random number to the variable n each time it is execu
 	* if the last digit of n is less than 6 and not 0: the string and is less than 6 and not 0
     * followed by a new line
 
-### [2-print_alphabet.c](https://github.com/MrGiddy/alx-low_level_programming/blob/main/0x01-variables_if_else_while/2-print_alphabet.c]
+### [2-print_alphabet.c](https://github.com/MrGiddy/alx-low_level_programming/blob/main/0x01-variables_if_else_while/2-print_alphabet.c)
 Write a program that prints the alphabet in lowercase, followed by a new line
 * You can only use the putchar function (every other function (printf, puts, etc...) is forbidden)
 * All your code should be in the main function
@@ -57,7 +57,7 @@ Write a program that prints the lowercase alphabet in reverse, followed by a new
 * All your code should be in the main function
 * You can only use putchar twice in your code
 
-### [8-print_base16.c]()https://github.com/MrGiddy/alx-low_level_programming/blob/main/0x01-variables_if_else_while/8-print_base16.c
+### [8-print_base16.c](https://github.com/MrGiddy/alx-low_level_programming/blob/main/0x01-variables_if_else_while/8-print_base16.c)
 Write a program that prints all the numbers of base 16 in lowercase, followed by a new line,
 * You can only use the putchar function (every other function(printf, puts, etc...) is forbidden)
 * All your code should be in the main function
@@ -72,7 +72,7 @@ Write a program that prints all possible combinations of single-digit numbers.
 * You can only use putchar four times maximum in your code
 * You are not allowed to use any variable of type char
 
-### [100-print_com3.c](https://github.com/MrGiddy/alx-low_level_programming/blob/main/0x01-variables_if_else_while/100-print_comb3.c)
+### [100-print_comb3.c](https://github.com/MrGiddy/alx-low_level_programming/blob/main/0x01-variables_if_else_while/100-print_comb3.c)
 Write a program that prints all possible different combinations of two digits
 * Numbers must be separated by , followed by a space
 * The two digits must be different
@@ -81,4 +81,15 @@ Write a program that prints all possible different combinations of two digits
 * Numbers should be printed in ascending order, with to digits
 * You can only use putchar function (every other function (printf, puts, etc...) is forbidden)
 * You are not allowed touse any variable of type char
+* All your code should be in the main function
+
+### [101-print_comb4.c](https://github.com/MrGiddy/alx-low_level_programming/blob/main/0x01-variables_if_else_while/101-print_comb4.c)
+Write a program that prints all possible combinations of three digits
+* Numbers must be separated by , followed by a space
+* The three digits must be different
+* 012, 120, 102, 021, 201, 210 are considered the same combination of the three digits 0, 1, and 2
+* Print only the smallest combination of three digits
+* You can only use the putchar function (every other function(pringf, puts, etc...) is forbidden)
+* You can use putchar 6 times maximum in your code
+* You are not allowed to use any variable of type char
 * All your code should be in the main function
