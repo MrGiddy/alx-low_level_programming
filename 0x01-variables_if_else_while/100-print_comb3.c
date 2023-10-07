@@ -12,7 +12,7 @@ int main(void)
 	for (x = 0; x < 10; x++)
 	{
 		for (y = x; y < 10; y++)
-		{	
+		{
 			if (x != y)
 			{
 				putchar(x + 48);
