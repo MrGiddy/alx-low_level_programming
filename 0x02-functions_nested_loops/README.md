@@ -19,3 +19,9 @@ Write a function that checks for lowercase character.
 * Prototype: int \_islower(int c);
 * Returns 1 if c is lowercase
 * Returns 0 otherwise
+
+### [4-isalpha.c](https://github.com/MrGiddy/alx-low_level_programming/blob/main/0x02-functions_nested_loops/0-putchar.c)
+Write a function that checks for alphabetic character.
+* Prototype: int \_isalpha(int c);
+* Returns 1 if c is a letter, lowercase or uppercase
+* Returns 0 otherwise
