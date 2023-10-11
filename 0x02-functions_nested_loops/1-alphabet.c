@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_alphabet: Prints the alphabet in lowercase
+ * print_alphabet - Prints the alphabet in lowercase
  *
  * Return: Nothing
  */
@@ -12,7 +12,7 @@ void print_alphabet(void)
 	go = 'a';
 	end = 'z';
 
-	while (go < end)
+	while (go <= end)
 	{
 		_putchar(go);
 		go++;
