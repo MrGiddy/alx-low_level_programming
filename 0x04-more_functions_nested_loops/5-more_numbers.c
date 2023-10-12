@@ -16,12 +16,8 @@ void more_numbers(void)
 			if (col > 9)
 			{
 				_putchar((col / 10) + 48);
-				_putchar((col % 10) + 48);
 			}
-			else
-			{
-				_putchar(col + 48);
-			}
+			_putchar((col % 10) + 48);
 		}
 		_putchar('\n');
 	}
