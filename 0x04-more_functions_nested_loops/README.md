@@ -20,3 +20,9 @@ Write a function that multiplies two integers
 Write a function that prints the numbers, from 0 to 9, followed by a new line.
 * Prototype: void print_numbers(void);
 * You can only use \_putchar twice in your code
+
+### [4-print_most_numbers.c](https://github.com/MrGiddy/alx-low_level_programming/blob/main/0x04-more_functions_nested_loops/4-print_most_numbers.c)
+Write a function that prints the numbers, from 0 to 9, followed by a new line.
+* Prototype: void print_most_numbers(void);
+* Do not print 2 and 4
+* You can only use \_putchar twice in your code
