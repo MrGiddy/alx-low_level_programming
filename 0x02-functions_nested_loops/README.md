@@ -20,7 +20,7 @@ Write a function that checks for lowercase character.
 * Returns 1 if c is lowercase
 * Returns 0 otherwise
 
-### [4-isalpha.c](https://github.com/MrGiddy/alx-low_level_programming/blob/main/0x02-functions_nested_loops/0-putchar.c)
+### [4-isalpha.c](https://github.com/MrGiddy/alx-low_level_programming/blob/main/0x02-functions_nested_loops/4-isalpha.c)
 Write a function that checks for alphabetic character.
 * Prototype: int \_isalpha(int c);
 * Returns 1 if c is a letter, lowercase or uppercase
@@ -32,3 +32,20 @@ Write a function that prints the sign of a number
 * Returns 1 and prints + if n is greater than zero
 * Returns 0 and prints 0 if n is zero
 * Returns -1 and prints - if n is less than zero
+
+### [6-abs.c](https://github.com/MrGiddy/alx-low_level_programming/blob/main/0x02-functions_nested_loops/6-abs.c)
+Write a function that computes the absolute value of an integer
+* Prototype int \_abs(int);
+
+###
+
+
+###
+
+
+###
+
+
+### [10-add.c](https://github.com/MrGiddy/alx-low_level_programming/blob/main/0x02-functions_nested_loops/10-add.c)
+Write a function that adds two integers and returns the result.
+* Prototype: int add(int, int);
