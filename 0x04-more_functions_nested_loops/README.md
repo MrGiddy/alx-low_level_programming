@@ -15,3 +15,8 @@ Write a function that checks for a digit(0 through 9)
 ### [2-mul.c](https://github.com/MrGiddy/alx-low_level_programming/blob/main/0x04-more_functions_nested_loops/2-mul.c)
 Write a function that multiplies two integers
 * Prototype: int mul()int a, int b);
+
+### [3-print_numbers.c](https://github.com/MrGiddy/alx-low_level_programming/blob/main/0x04-more_functions_nested_loops/3-print_numbers.c)
+Write a function that prints the numbers, from 0 to 9, followed by a new line.
+* Prototype: void print_numbers(void);
+* You can only use \_putchar twice in your code
