@@ -37,8 +37,10 @@ Write a function that prints the sign of a number
 Write a function that computes the absolute value of an integer
 * Prototype int \_abs(int);
 
-###
-
+### [7-print_last_digit](https://github.com/MrGiddy/alx-low_level_programming/blob/main/0x02-functions_nested_loops/7-print_last_digit.c)
+Write a function that prints the last digit of a number
+* Prototype: int print_last_digit(int);
+* Returns the value of the last digit
 
 ###
 
