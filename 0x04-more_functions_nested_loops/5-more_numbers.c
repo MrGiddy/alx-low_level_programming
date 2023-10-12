@@ -21,7 +21,7 @@ void more_numbers(void)
 			else
 			{
 				_putchar(col + 48);
-			} 
+			}
 		}
 		_putchar('\n');
 	}
