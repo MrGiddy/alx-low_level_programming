@@ -1,12 +1,12 @@
 # 0x03. C - Debugging
 
-### [0-main.c]()https://github.com/MrGiddy/alx-low_level_programming/blob/main/0x03-debugging/0-main.c
+### [0-main.c](https://github.com/MrGiddy/alx-low_level_programming/blob/main/0x03-debugging/0-main.c)
 Tests that the function positive_or_negative gives the correct ouput when given a case of 0 
 
-### [1-main.c]()https://github.com/MrGiddy/alx-low_level_programming/blob/main/0x03-debugging/1-main.c
+### [1-main.c](https://github.com/MrGiddy/alx-low_level_programming/blob/main/0x03-debugging/1-main.c)
 Comment out the part of the code that is causing it to go into an infinite loop.
 
-### [2-main.c]()https://github.com/MrGiddy/alx-low_level_programming/blob/main/0x03-debugging/2-main.c
+### [2-main.c](https://github.com/MrGiddy/alx-low_level_programming/blob/main/0x03-debugging/2-main.c)
 Fix the code to correctly print out the largest of three numbers, no matter the case.
 
 ### [3-print_remaining_days.c](https://github.com/MrGiddy/alx-low_level_programming/blob/main/0x03-debugging/3-print_remaining_days.c)
