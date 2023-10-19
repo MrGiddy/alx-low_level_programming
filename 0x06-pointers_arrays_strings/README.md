@@ -14,3 +14,13 @@ Write a function that concatenates two strings.
     * It will use at most n bytes from src; and
     * src does not need to be null-terminated if it contains n or more bytes
 * Return a pointer to the resulting string dest
+
+### [2-strncpy]()
+Write a function that copies a string.
+* Prototype: char \*strncpy(char \*dest, char \*src, int n);
+* Your function should work exactly like strncpy
+
+### [3-strcmp.c]()
+Write a function that compares two strings.
+* Prototype: int \_str.cmp(char \*s1, char \*s2)
+* Your function should work exactly like strcmp
