@@ -24,3 +24,9 @@ Write a function that copies a string.
 Write a function that compares two strings.
 * Prototype: int \_str.cmp(char \*s1, char \*s2)
 * Your function should work exactly like strcmp
+
+### [4-rev_array.c]()
+
+### [5-string_to_upper.c]()
+Write a function that changes all lowercase letters of a string to uppercase.
+* Prototype: char \*string_to_upper(char \*);
