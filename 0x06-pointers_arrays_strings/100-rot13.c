@@ -5,29 +5,25 @@
  * @input: the string to encode
  * Return: char * - the encoded string
  */
-char *rot13(char *input)
+char *rot13(char *input_string)
 {
-	char *result;
+	int i, j;
 
-	result = input;
+	char search_string[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+	char rotate_string[] = "NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm";
 
-	/* Iterate through each character in the input string */
-	while (*input != '\0')
+	for (i = 0; input_string[i] != '\0'; i++)
 	{
-		/* Check if the character is an alphabetic character */
-		if ((*input >= 'a' && *input <= 'm') || (*input >= 'A' && *input <= 'M'))
+		for (j = 0; search_string[j] != '\0'; j++)
 		{
-			/* Apply ROT13  transformation */
-			*input += 13;
+			if (input_string[i] == search_string[j])
+			{
+				input_string[i] = rotate_string[j];
+				break;
+			}
 		}
-		else if ((*input >= 'n' && *input <= 'z') || (*input >= 'N' && *input <= 'Z'))
-		{
-			/* Apply ROT13 transformation */
-			*input -= 13;
-		}
-
-		input++; /* Move to the next character */
 	}
+	input_string[i] = '\0'; /* Just to make sure - defensive programming */
 
-	return (result);
+	return (input_string);
 }
