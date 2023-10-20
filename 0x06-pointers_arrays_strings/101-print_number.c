@@ -7,6 +7,8 @@
  */
 void print_number(int n)
 {
+	unsigned int num; /* unsigned int to hold the absolute value of n */
+
 	/* Check if n is negative */
 	if (n < 0)
 	{
@@ -14,16 +16,18 @@ void print_number(int n)
 		n = -n; /* Make n positive */
 	}
 
+	num = n; /* Assign absolute n to num */
+
 	/* Check if n is a single-digit number */
-	if (n < 10)
+	if (num < 10)
 	{
-		_putchar(n + '0');  /* Print the digit */
+		_putchar(num + '0');  /* Print the digit */
 		return; /* Return from the function */
 	}
 
 	/* Recusively call print_number with n with last digit chopped off */
-	print_number(n / 10);
+	print_number(num / 10);
 
 	/* Print the last digit */
-	_putchar(n % 10 + '0');
+	_putchar(num % 10 + '0');
 }
