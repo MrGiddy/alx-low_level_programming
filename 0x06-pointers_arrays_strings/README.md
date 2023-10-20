@@ -42,7 +42,13 @@ Write a function that encodes a string using rot13.
 * You are not allowed to use switch
 * You are not allowed to use any ternary operation
 
-### [101-]()
+### [101-print_number.c](https://github.com/MrGiddy/alx-low_level_programming/blob/d0cbb9512db7fe6347cbf18686fdd65b98db73f1/0x06-pointers_arrays_strings/101-print_number.c)
+Write a function that prints an integer.
+* Prototype: void print_number(int n);
+* You can only use \_putchar function to print
+* You are not allowed to use long
+* You are not allowed to use arrays or pointers
+* You are not allowed to hard-code special values
 
 ### [102-]()
 
