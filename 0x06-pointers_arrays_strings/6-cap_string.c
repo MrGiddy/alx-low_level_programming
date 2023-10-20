@@ -13,13 +13,19 @@ char *cap_string(char *s)
 	int word_seps[] = {' ', '\t', '\n', ',', ';', '.',
 		'!', '?', '"', '(', ')', '{', '}'};
 
-	/* Iterate through the words in the string */
+	/* Iterate through the characters in the string */
 	for (i = 0; s[i] != '\0'; i++)
 	{
 		/* Iterate through the word separators */
 		for (j = 0; word_seps[j] != '\0'; j++)
 		{
-			/* If the current word is a separator */
+			/* If the first character is lowercase */
+			if (i == 0 && (s[i] >= 97) && (s[i] <= 122))
+			{
+				/* Capitalize the first character */
+				s[i] = s[i] - 32;
+			}
+			/* If the current character is a separator */
 			if (s[i] == word_seps[j])
 			{
 				/* Check if the next character exists and is a lowercase letter */
