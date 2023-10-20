@@ -30,7 +30,10 @@ Write a function that compares two strings.
 Write a function that changes all lowercase letters of a string to uppercase.
 * Prototype: char \*string_to_upper(char \*);
 
-### [6-]()
+### [6-cap_string.c](https://github.com/MrGiddy/alx-low_level_programming/blob/main/0x06-pointers_arrays_strings/6-cap_string.c)
+Write a function that capitalizes all words of a string.
+* Prototype: char \*cap_string(char \*);
+* Separators of words: space, tabulation, new line, comma(,), ;, ., !, ?, ", (, ), {, and }
 
 ### [7-]()
 
