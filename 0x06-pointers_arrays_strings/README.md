@@ -56,7 +56,17 @@ Write a function that prints an integer.
 * You are not allowed to use arrays or pointers
 * You are not allowed to hard-code special values
 
-### [102-]()
+### [102-](https://github.com/MrGiddy/alx-low_level_programming/blob/main/0x06-pointers_arrays_strings/102-magic.ci)
+Add one line to [this code](https://github.com/alx-tools/make_magic_happen/blob/master/magic.c) so that the program prints a[2] = 98, followed by a new line
+* You are not allowed to use the variable a in your new line of code
+* You are not allowed to modify the variable p
+* You can only write one statement
+* You are not allowed to use ,
+* You are not allowed to code anything else than the line of expeced line of code at the expected line
+* Your code should be written at lien 19, before the ;
+* Do not remove anything from the initial code (not even the comments)
+* and don't chage anything but theline of code you are adding (don't change the spaces to tabs!)
+* You are allowed to use the standard library
 
 ### [103-]()
 
