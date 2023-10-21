@@ -24,7 +24,10 @@ Write a function that compares two strings.
 * Prototype: int \_str.cmp(char \*s1, char \*s2)
 * Your function should work exactly like strcmp
 
-### [4-rev_array.c]()
+### [4-rev_array.c](https://github.com/MrGiddy/alx-low_level_programming/blob/main/0x06-pointers_arrays_strings/4-rev_array.c)
+Write a function that reverses the content of an array of integers.
+* Prototype: void reverse_array(int \*a, int n);
+* Where n is the number of elements of the array
 
 ### [5-string_to_upper.c](https://github.com/MrGiddy/alx-low_level_programming/blob/main/0x06-pointers_arrays_strings/5-string_toupper.c)
 Write a function that changes all lowercase letters of a string to uppercase.
