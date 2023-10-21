@@ -31,20 +31,3 @@ void reverse_array(int *a, int n)
 		n--;
 	}
 }
-
-/**
- *      0  1  2  3  4
- * a = [1, 2, 3, 4, 5, \0]
- *
-  * if n is odd
- * 	mid_index = (length / 2) + 1
- * if n is even
- * 	mid_index  = length / 2 
- *
- * initialize i = 0
- * while i <= mid_index
- *	a[i] = a[length - 1]
- *	INCREMENT i
- *	DECREMENT length
- *
- */
