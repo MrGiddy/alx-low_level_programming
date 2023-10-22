@@ -35,10 +35,15 @@ Write a function that prints half of a string, followed by a new line.
 * The function should print the second half of the string
 If the number of characters is odd, the function should print the last n characters of the string, where n = (length_of_the_string -1) / 2
 
-### [8-print_array.c]()
+### [8-print_array.c](https://github.com/MrGiddy/alx-low_level_programming/blob/main/0x05-pointers_arrays_strings/8-print_array.c)
 Write a function that prints n elements of an array of integers, followed by a new line.
 * Prototype: void print_array(int \*a, int n);
 * Where n is the number of elements of the array to be printed
 * Numbers must be separated by comma, followed by a space
 * The numbers should be displayed in the same order as they are stored in the array
 * You are allowed to use printf
+
+### [9-strcpy.c](https://github.com/MrGiddy/alx-low_level_programming/blob/main/0x05-pointers_arrays_strings/9-strcpy.c)
+* Protototype: char \*\_strcpy(char \*dest, char \*src);
+Write a function that copies the string pointed to by src, including the terminating null byte (\0), to the buffer pointed to by dest.
+* Return value: the pointer to dest
