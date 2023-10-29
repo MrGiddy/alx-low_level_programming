@@ -5,14 +5,14 @@
  * _strstr - Locates a substring
  * @haystack: A string to search for substring
  * @needle: The substring to search
- * Return: A pointer to the beginning of the located substring, NULL if substring not found
+ * Return: A pointer to the beginning of substring, NULL if substring not found
  */
 char *_strstr(char *haystack, char *needle)
 {
 	int i, j;
 
 	/* Iterate through each character in the haystack */
-	for(i = 0; haystack[i] != '\0'; i++)
+	for (i = 0; haystack[i] != '\0'; i++)
 	{
 		/* Iterate through each character in the needle */
 		for (j = 0; needle[j] != '\0'; j++)
