@@ -17,3 +17,16 @@ Write a function that copies memory area.
 Write a function that locates a character in a string.
 * Prototype: char \*\_strchr(char \*s, char c);
 * Returns a pointer to the first occurrence of the character c in the string s, or NULL if the character is not found
+
+### [3-strspn.c]()
+Write a function that gets the length of a prefix substring.
+* Prototype: unsigned int \_strspn(char \*s, char \*accept);
+* Returns the number of bytes in the initial segment of s which consist only of bytes from accept
+
+### [4-strpbrk.c]()
+
+### [5-strstr.c]()
+Write a function that locates a substring.
+* Prototype: char \*\_strstr(char \*haystack, char \*needle)
+* The \_strstr() function finds the first occurrence of the substring needle in the string haystack. The terminating null bytes (\0) are not compared
+* Returns a pointer to the beginning of the located substring, or NULL if the substring is not found.
