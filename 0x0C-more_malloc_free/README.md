@@ -5,3 +5,11 @@ Write a function that allocaes memory using malloc.
 * Prototype: void \*malloc\_checked(unsigned int b); 
 * Returns a pointer to the allocated memory
 * If malloc fails, the malloc_checked function should cause normal process termination with a status value of 98
+
+### [1-string_nconcat.c]()
+Write a function that concatenates two strings.
+* Prototype: char \*string_nconcat(char \*s1, char \*s2, unsigned int n);
+* The returned pointer shall point to a newly allocated space in momory, which contains s1, followed by the first n bytes of s2, and null terminated
+* If the function fails, it should return NULL
+* If n is greater or equal to the length of s2 then use the entire string s2
+* If NULL is passed, treat it as an empty string
