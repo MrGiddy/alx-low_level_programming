@@ -1,7 +1,7 @@
 # 0x0C. C - More malloc, free
 
 ### [0-malloc_checked.c](https://github.com/MrGiddy/alx-low_level_programming/blob/main/0x0C-more_malloc_free/0-malloc_checked.c)
-Write a function that allocaes memory using malloc.
+Write a function that allocates memory using malloc.
 * Prototype: void \*malloc\_checked(unsigned int b); 
 * Returns a pointer to the allocated memory
 * If malloc fails, the malloc_checked function should cause normal process termination with a status value of 98
@@ -21,3 +21,11 @@ Write a function that allocates memory for an array, using malloc.
 * The memory is set to zero
 * If nmemb or size is 0, then \_calloc returns NULL
 * If malloc fails, then \_calloc returns NULL
+
+### [3-array_range.c](https://github.com/AdekunleAdeniran/low_level_programming/blob/master/0x0B-more_malloc_free/3-array_range.c)
+Write a function that creates an array of integers.
+* Prototype: int \*array_range(int min, int max);
+* The array created should contain all the values from min (included) to max (included), ordered from min to max
+* Return: the pointer to the newly created array
+* If min > max, return NULL
+* If malloc fails, return NULL
