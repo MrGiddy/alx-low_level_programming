@@ -29,3 +29,16 @@ Write a function that creates an array of integers.
 * Return: the pointer to the newly created array
 * If min > max, return NULL
 * If malloc fails, return NULL
+
+### [100-realloc.c](https://github.com/MrGiddy/alx-low_level_programming/blob/main/0x0C-more_malloc_free/100-realloc.c)
+Write a function that reallocates a memory block using malloc and free
+* Prototype: void \*\_realloc(void \*ptr, unsigned int old\_size, unsigned int new\_size);
+* Where ptr is a pointer to the memory previously allocated with a call to malloc: malloc(old\_size)
+* old\_size is the size, in bytes of the allocated space for ptr
+* and new\_size is the new size, in bytes of the new memory block
+* The contents will be copied to the newly allocated space, in the range from the start of ptr up to the minimum of the old and new size
+* If new\_size > old\_size, the "added" memory should not be initialized
+* If new\_size == old\_size do not do anything and return ptr
+* If ptr is NULL, then the call is equivalent to malloc(new\_size), for all values of old\_size) and new\_size
+* If new\_size is equal to zero, and ptr is not NULL, then the call is equivalent to free(ptr). Return NULL
+* Don't forget to free ptr when it makes sense
