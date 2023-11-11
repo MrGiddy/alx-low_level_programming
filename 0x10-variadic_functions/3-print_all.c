@@ -63,7 +63,7 @@ void print_all(const char * const format, ...)
 				break;
 		}
 
-		if (i < num_args && (format[i] == 'c' || format[i] == 'i' || format[i] == 'f' || format[i] == 'f'))
+		if (i < num_args - 1 && (format[i] == 'c' || format[i] == 'i' || format[i] == 'f' || format[i] == 's'))
 		{
 			printf(", ");
 		}
