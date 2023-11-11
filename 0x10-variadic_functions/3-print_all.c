@@ -22,8 +22,28 @@ int _strlen(const char *str)
 }
 
 /**
+ * comma_delimiter - deparates arguments with commas
+ * @num_args: number of arguments
+ * @format: A string of format specifiers
+ * @i: A counter variable
+ */
+void comma_delimiter(int num_args, const char *format, int i)
+{
+	int n;
+	const char *s;
+
+	n = num_args;
+	s = format;
+
+	if (i < n - 1 && (s[i] == 'c' || s[i] == 'i' || s[i] == 'f' || s[i] == 's'))
+	{
+		printf(", ");
+	}
+}
+
+/**
  * print_all - A function that prints anything
- * @format: A list of types of arguments passed to the function
+ * @format: A string of format specifiers
  * Return: Nothing
  */
 void print_all(const char * const format, ...)
@@ -33,11 +53,8 @@ void print_all(const char * const format, ...)
 	char *str;
 
 	va_start(args, format);
-
-	num_args = _strlen(format);
-
 	i = 0;
-	while (i < num_args)
+	while (format && format[i])
 	{
 		switch (format[i])
 		{
@@ -62,15 +79,10 @@ void print_all(const char * const format, ...)
 			default:
 				break;
 		}
-
-		if (i < num_args - 1 && (format[i] == 'c' || format[i] == 'i' || format[i] == 'f' || format[i] == 's'))
-		{
-			printf(", ");
-		}
-
+		num_args = _strlen(format);
+		comma_delimiter(num_args, format, i);
 		i++;
 	}
 	printf("\n");
-
 	va_end(args);
 }
