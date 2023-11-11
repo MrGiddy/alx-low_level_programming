@@ -57,11 +57,8 @@ void print_all(const char * const format, ...)
 					printf("%s", "(nil)");
 					break;
 				}
-				else
-				{
-					printf("%s", str);
-					break;
-				}
+				printf("%s", str);
+				break;
 			default:
 				break;
 		}
