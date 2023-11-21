@@ -15,7 +15,7 @@ listint_t *add_nodeint_end(listint_t **head, const int n)
 	new_node = (listint_t *)malloc(sizeof(listint_t));
 	if (new_node == NULL)
 	{
-		return NULL;
+		return (NULL);
 	}
 	new_node->n = n;
 	new_node->next = NULL;
@@ -28,8 +28,8 @@ listint_t *add_nodeint_end(listint_t **head, const int n)
 	}
 	else
 	{
-		/* Traverse the list to find the new node */
-		while(ptr->next != NULL)
+		/* Traverse the list to find the last node */
+		while (ptr->next != NULL)
 		{
 			ptr = ptr->next;
 		}
