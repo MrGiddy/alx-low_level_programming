@@ -8,8 +8,7 @@
  */
 ssize_t read_textfile(const char *filename, size_t letters)
 {
-	int fd;
-	int read_count, write_count;
+	int fd, rc, wc;
 	char *buff;
 
 	if (filename == NULL)
@@ -20,27 +19,21 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	if (buff == NULL)
 		return (0);
 
-	/* Open file and obtain file descriptor */
 	fd = open(filename, O_RDONLY);
-	if (fd == -1) /* If open fails */
-		return (-1);
+	rc = read(fd, buff, letters);
+	buff[rc] = '\0'; /* Nul-terminate buff */
+	wc = write(STDOUT_FILENO, buff, rc);
 
-	/* Read file contents into buff */
-	read_count = read(fd, buff, letters);
-	if (read_count == -1) /* If read fails */
+	if (fd == -1 || rc == -1 || wc == -1 || wc != rc)
+	{
+		free(buff);
 		return (0);
+	}
 
-	buff[read_count] = '\0'; /* Null-terminate buff */
-
-	/* Write size read_count from  buff to stdout */
-	write_count = write(STDOUT_FILENO, buff, read_count);
-	if (write_count == -1 || write_count != read_count)
-		return (0);
+	free(buff);
 
 	/* Cleanup: Close the file */
 	close(fd);
 
-	free(buff);
-
-	return (write_count);
+	return (wc);
 }
