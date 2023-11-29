@@ -14,9 +14,7 @@ int create_file(const char *filename, char *text_content)
 		return (-1);
 
 	if (text_content == NULL)
-	{
 		text_content = "";
-	}
 
 	/* Get the length of text_content */
 	for (len_str = 0; text_content[len_str] != '\0'; len_str++)
