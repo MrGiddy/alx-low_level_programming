@@ -11,6 +11,10 @@ int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
 	dlistint_t *current;
 	unsigned int i, count;
 
+	/* If NULL is passed */
+	if (head == NULL)
+		return (-1);
+
 	/* If node to delete is the first */
 	if (index == 0)
 	{
