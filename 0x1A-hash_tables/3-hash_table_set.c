@@ -40,12 +40,8 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 		else
 		{
 			/* Handle the collision - insert node at beg. of chain */
-			if (current_item->next == NULL)
-			{
-				current_item->next = node;
-			}
-			node->next = current_item->next;
-			current_item->next = node;
+			node->next = current_item;
+			ht->array[index] = node;
 			return (1);
 		}
 	}
