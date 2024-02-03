@@ -131,7 +131,7 @@ julien@ubuntu:~/0x1A. Hash tables$ valgrind ./a
 julien@ubuntu:~/0x1A. Hash tables$
 ```
 
-# 1. djb2 - ([0-djb2.c](https://github.com/MrGiddy/alx-low_level_programming/blob/main/0x1A-hash_tables/1-djb2.c))
+### 1. djb2 - ([0-djb2.c](https://github.com/MrGiddy/alx-low_level_programming/blob/main/0x1A-hash_tables/1-djb2.c))
 Write a hash function implementing the djb2 algorithm.
 
 * Prototype: unsigned long int hash_djb2(const unsigned char *str);
@@ -231,7 +231,7 @@ julien@ubuntu:~/0x1A. Hash tables$ ./c
 julien@ubuntu:~/0x1A. Hash tables$ 
 ```
 
-# 3. >>> ht['betty'] = 'cool' - ([3-hash_table_set.c](https://github.com/MrGiddy/alx-low_level_programming/blob/main/0x1A-hash_tables/3-hash_table_set.c))
+### 3. >>> ht['betty'] = 'cool' - ([3-hash_table_set.c](https://github.com/MrGiddy/alx-low_level_programming/blob/main/0x1A-hash_tables/3-hash_table_set.c))
 Write a function that ads an element to the hash table.
 * Prototype: int hash_table_set(hash_table_t *ht, const char *key, const char *value);
     * Where ht is the hash table you want to add or update the key/value to
@@ -337,7 +337,7 @@ javascript:(null)
 julien@ubuntu:~/0x1A. Hash tables$ 
 ```
 
-# 5.>>> print(ht) - ([5-hash_table_print.c]())
+### 5.>>> print(ht) - ([5-hash_table_print.c](https://github.com/MrGiddy/alx-low_level_programming/blob/main/0x1A-hash_tables/5-hash_table_print.c))
 Write a function that prints a hash table.
 
 * Prototype: void hash_table_print(const hash_table_t *ht);

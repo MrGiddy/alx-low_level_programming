@@ -35,6 +35,9 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 		if (strcmp(current_item->key, key) == 0)
 		{
 			strcpy(current_item->value, value);
+			free(node->key);
+			free(node->value);
+			free(node);
 			return (1);
 		}
 		else
@@ -64,12 +67,19 @@ hash_node_t *create_hash_node(const char *key, const char *value)
 	node = malloc(sizeof(hash_node_t));
 	if (node == NULL)
 		return (NULL);
-	node->key = malloc(sizeof(strlen(key) + 1));
+	node->key = malloc(strlen(key) + 1);
 	if (node->key == NULL)
+	{
+		free(node);
 		return (NULL);
-	node->value = malloc(sizeof(strlen(key) + 1));
+	}
+	node->value = malloc(strlen(value) + 1);
 	if (node->value == NULL)
+	{
+		free(node->key);
+		free(node);
 		return (NULL);
+	}
 
 	/* Populate the new node */
 	strcpy(node->key, key);
