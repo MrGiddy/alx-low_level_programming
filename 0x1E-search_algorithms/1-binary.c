@@ -3,6 +3,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+int print_array(int *array, size_t low, size_t high);
+
 /**
  * binary_search - Searches a value in sorted array using Binary Search algrthm
  * @array: Pointer to the first element of the array to search in
