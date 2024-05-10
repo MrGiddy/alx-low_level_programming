@@ -47,12 +47,12 @@ int binary_search_recursion(int *array, size_t size, size_t low, size_t high,
 {
 	int mid;
 
+	if (!array)
+		return (-1);
 
 	/* If target value is not found in array */
 	if (low > high)
-	{
 		return (-1);
-	}
 
 	print_array(array, low, high);
 
